@@ -16,6 +16,12 @@ body {
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.384);
 }
+
+@media (max-width: 800px) {
+    #img {
+        width: 50vw;
+    }
+}
 #img {
     height: auto;
     width: 500px;
@@ -30,3 +36,5 @@ body {
     margin-right: 50px;
     font-size: 20px;
 }
+
+/* TO DO: Make Responsive*/
